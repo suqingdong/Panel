@@ -3,7 +3,6 @@
 	padding: 0;
 }
 
-
 #container {
 	margin-top: 50px;
 }
@@ -16,6 +15,15 @@
   color: red;
 }
 
+#gene-detail a {
+  text-decoration: none;
+}
+
+#gene-detail a:hover {
+  color: orange;
+}
+
+/* auto complete */
 #auto {
   width: auto;
   border: solid 1px #ccc;
