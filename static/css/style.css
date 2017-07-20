@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#container {
+	margin-top: 50px;
+}
+
+#diseaseList a{
+  text-decoration: none;
+  color: grey;
+}
+#diseaseList a:hover{
+  color: red;
+}
+
+#auto {
+  width: auto;
+  border: solid 1px #ccc;
+}
+#auto .auto_out {
+    color: grey;
+    padding: 2px 20px;
+}
+#auto .on, #auto .auto_out:hover {
+  background: #ddd;
+  color: green;
+}
